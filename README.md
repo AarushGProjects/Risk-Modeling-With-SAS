@@ -18,7 +18,4 @@ Logit = log(odds) = Bo+B1…Bn
              P = exp(Bo+B1…Bn)/1+exp(Bo+B1…Bn) 
              
              
-Where P: Probability of default
-
-
-             Bi: Regression coefficient of explanatory variables
+Where P: Probability of default and Bi: Regression coefficient of explanatory variables
