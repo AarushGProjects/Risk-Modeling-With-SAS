@@ -1,4 +1,4 @@
-# Risk-Modeling-With-SAS
+# Risk Modeling With SAS
 
 Lending club is an American peer to peer lending company. There has been a significant increase in the delinquency rate. The company would like to develop a business strategy 
 in order to reduce the default rate. The dataset provided by the company consists of 300000 records and 151 features.  
