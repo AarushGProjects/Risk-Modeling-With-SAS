@@ -9,7 +9,8 @@ A credit scoring model is used in evaluating a credit application. Credit lendin
 
 
 Logistic Regression is a probabilistic technique that uses a logit function for binary classification.
-Logit = log(odds) = Bo+B1…Bn
+             
+             Logit = log(odds) = Bo+B1…Bn
 
 
              We get, P = 1/1+exp(-y)
