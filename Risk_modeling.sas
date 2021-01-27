@@ -178,7 +178,7 @@ proc logistic data=loan_data;
 	class purpose term grade income_category home_ownership 
 	application_type verification_status/param=reference;
 	
-	model Delinquency = term int_rate installment grade tot_cur_bal mths_since_last_delinq home_ownership annual_inc verification_status 
+	model Delinquency(event='1') = term int_rate installment grade tot_cur_bal mths_since_last_delinq home_ownership annual_inc verification_status 
 	purpose application_type dti delinq_2yrs out_prncp total_pymnt last_pymnt_amnt avg_cur_bal income_category 
 	fico_avg last_fico_avg;
 	
