@@ -132,7 +132,7 @@ run;
 
 /*Imputing missing values*/
 
-proc stdize data=loan_data out=loan_data method=median;
+proc stdize data=loan_data out=loan_data method=median reponly;
 	var dti mths_since_last_delinq avg_cur_bal loan_inc_perc;
 run;
 
